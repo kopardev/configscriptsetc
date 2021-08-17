@@ -1,0 +1,9 @@
+/Users/kopardevn/miniconda3/envs/dx
+/Users/kopardevn/miniconda3/envs/biopython
+/Users/kopardevn/miniconda3/envs/scanpy
+/Users/kopardevn/miniconda3/envs/flask
+/Users/kopardevn/miniconda3
+/Users/kopardevn/miniconda3/envs/py37
+/Users/kopardevn/miniconda3/envs/py27
+/Users/kopardevn/miniconda3/envs/uropa
+/Users/kopardevn/miniconda3/envs/pyside
