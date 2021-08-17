@@ -1,0 +1,10 @@
+[user]
+	email = vishal.koparde@nih.gov
+	name = kopardev
+[core]
+	excludesfile = /Users/kopardevn/.gitignore_global
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

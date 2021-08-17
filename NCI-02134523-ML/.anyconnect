@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnyConnectPreferences>
+<DefaultUser>kopardevn</DefaultUser>
+<DefaultSecondUser></DefaultSecondUser>
+<ClientCertificateThumbprint>09189A4042FC3881B9E4F8F2E3BEA8F9F1B10CB1</ClientCertificateThumbprint>
+<MultipleClientCertificateThumbprints></MultipleClientCertificateThumbprints>
+<ServerCertificateThumbprint></ServerCertificateThumbprint>
+<DefaultHostName>NIHVPN</DefaultHostName>
+<DefaultHostAddress></DefaultHostAddress>
+<DefaultGroup></DefaultGroup>
+<ProxyHost></ProxyHost>
+<ProxyPort></ProxyPort>
+<SDITokenType>none</SDITokenType>
+<ControllablePreferences></ControllablePreferences>
+</AnyConnectPreferences>
