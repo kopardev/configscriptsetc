@@ -1,0 +1,24 @@
+# Customization of zsh on work laptop 
+# add "source ~/.zshrc_kopardevn" to the bottom of ~/.zshrc file 
+# WARNING: if ~/.zshrc file exists before installing oh-my-zsh, then it will be replaced (lost forever!)
+# for installing oh-my-zsh use ~/scripts/install_and_setup_zsh.sh
+
+# Github PAT
+export PAT="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"
+
+# Aliases
+alias la="ls -alrth"
+alias Typora="/Applications/Typora.app/Contents/MacOS/Typora"
+alias rm="rm -iv"
+alias b="ssh -Y 128.231.2.9"
+alias m="ssh moab.ncifcrf.gov"
+#alias h="ssh -Y helix.nih.gov"
+alias h="ssh -Y 128.231.2.3"
+#alias batch="ssh -Y batch.ncifcrf.gov"
+alias batch="ssh -Y 10.156.101.10"
+#alias globus="ssh -Y ncias-p1462.nci.nih.gov"
+alias globus="ssh -Y ncias-p2237.nci.nih.gov"
+#Home NAS
+alias nas="ssh -oHostKeyAlgorithms=+ssh-dss root@192.168.1.42"
+#alias sublime="/Applications/Sublime\ Text\ 2.app/Contents/MacOS/Sublime\ Text\ 2"
+alias usage='du -sk * 2> >(grep -v "Permission denied")| sort -n | perl -ne '\''($s,$f)=split(m{\t});for (qw(K M G)){if($s<1024) {printf("%.1f",$s);print "$_\t$f"; last};$s=$s/1024}'\'
