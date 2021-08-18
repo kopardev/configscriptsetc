@@ -98,7 +98,7 @@ brew install java
 
 ###  7. <a name='InstallOthertools'></a>Install Other tools
 
-* [XQuartz](https://www.xquartz.org/) This is required for `ssh -Y` to work correctly
+* [XQuartz](https://www.xquartz.org/) This is required for `ssh -Y` to work correctly. Installation requires restart. Verify installation with `echo $DISPLAY`.
 * [Evernote](https://evernote.com/download)
 * [Google Chrome](https://www.google.com/chrome/) Then sign in with google account to auto install extensions and download bookmarks.
 * [Brave Browser](https://brave.com/download/#mac-options) Then import bookmarks from Google Chrome.
