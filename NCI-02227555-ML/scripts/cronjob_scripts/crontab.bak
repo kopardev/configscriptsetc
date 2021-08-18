@@ -1,0 +1,2 @@
+0 */4 * * * bash /Users/kopardevn/scripts/cronjob_scripts/kill_password_boss.sh
+0 0 1 * * bash /Users/kopardevn/scripts/cronjob_scripts/run_monthly.sh
