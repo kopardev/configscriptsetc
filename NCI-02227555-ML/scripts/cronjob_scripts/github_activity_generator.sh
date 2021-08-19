@@ -1,4 +1,5 @@
-#!/bin
+#!/bin/bash
+
 # based off of https://github.com/kopardev/activitygenerator
 # cd to clone location
 cd ~/Desktop/GitRepos/activitygenerator
