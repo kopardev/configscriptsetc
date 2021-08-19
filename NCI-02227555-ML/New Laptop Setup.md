@@ -111,6 +111,7 @@ brew install java
 
 ```bash
 brew install wget
+brew install tree
 ```
 
 ###  9. <a name='Restoreoldfiles'></a>Restore old files
