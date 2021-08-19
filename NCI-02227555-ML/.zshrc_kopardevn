@@ -22,3 +22,6 @@ alias globus="ssh -Y ncias-p2237.nci.nih.gov"
 alias nas="ssh -oHostKeyAlgorithms=+ssh-dss root@192.168.1.42"
 #alias sublime="/Applications/Sublime\ Text\ 2.app/Contents/MacOS/Sublime\ Text\ 2"
 alias usage='du -sk * 2> >(grep -v "Permission denied")| sort -n | perl -ne '\''($s,$f)=split(m{\t});for (qw(K M G)){if($s<1024) {printf("%.1f",$s);print "$_\t$f"; last};$s=$s/1024}'\'
+
+# cronjob logdir
+export CRONJOB_LOGDIR="/Users/kopardevn/Desktop/GitRepos/configscriptsetc/NCI-02227555-ML/scripts/cronjob_scripts/logs"
