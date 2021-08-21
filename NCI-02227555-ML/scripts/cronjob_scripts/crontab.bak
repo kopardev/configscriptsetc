@@ -1,2 +1,5 @@
-0 */4 * * * bash /Users/kopardevn/scripts/cronjob_scripts/kill_password_boss.sh
-0 0 1 * * bash /Users/kopardevn/scripts/cronjob_scripts/run_monthly.sh
+0 */4 * * * bash /Users/kopardevn/Desktop/GitRepos/configscriptsetc/NCI-02227555-ML/scripts/cronjob_scripts/runthisscript_and_logit.sh bash /Users/kopardevn/scripts/cronjob_scripts/kill_password_boss.sh
+0 0 1 * * bash /Users/kopardevn/Desktop/GitRepos/configscriptsetc/NCI-02227555-ML/scripts/cronjob_scripts/runthisscript_and_logit.sh bash /Users/kopardevn/scripts/cronjob_scripts/run_monthly.sh
+0 * * * * bash /Users/kopardevn/Desktop/GitRepos/configscriptsetc/NCI-02227555-ML/scripts/cronjob_scripts/runthisscript_and_logit.sh osascript /Users/kopardevn/scripts/apple_scripts/bring_slack_to_front.scpt
+1 * * * * bash /Users/kopardevn/Desktop/GitRepos/configscriptsetc/NCI-02227555-ML/scripts/cronjob_scripts/runthisscript_and_logit.sh bash /Users/kopardevn/scripts/cronjob_scripts/kill_brave_browser.sh
+2 * * * * bash /Users/kopardevn/Desktop/GitRepos/configscriptsetc/NCI-02227555-ML/scripts/cronjob_scripts/runthisscript_and_logit.sh bash /Users/kopardevn/scripts/cronjob_scripts/github_activity_generator.sh
