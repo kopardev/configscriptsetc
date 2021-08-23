@@ -35,6 +35,12 @@ git config --global credential.helper cache
 
 Next time GH asks for password, copy paste the PAT and it will not ask password until PAT expires. More details [here](https://github.com/CCBR/Tools/tree/master/git#pat-or-personal-access-token).
 
+Copy contents of `id_rsa.pub` from the previous step and setup ssh access to github.com [here](https://github.com/settings/keys). Verify access by running:
+
+```bash
+ssh -T git@github.com
+```
+
 ###  3. <a name='Setupzsh'></a>Setup zsh
 
 ```bash
