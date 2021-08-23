@@ -118,6 +118,8 @@ brew install java
 ```bash
 brew install wget
 brew install tree
+brew install terminal-notifier
+brew install coreutils
 ```
 
 ###  9. <a name='Restoreoldfiles'></a>Restore old files
