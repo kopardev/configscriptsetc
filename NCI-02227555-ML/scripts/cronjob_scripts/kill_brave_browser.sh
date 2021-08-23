@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # kill brave browser if it uses more than 50% of the memory
 # use ps to get 
 # etime = elapsed time ... time the program has been running

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # get date
 dt=$(date +"%D"|sed "s@/@@g")
