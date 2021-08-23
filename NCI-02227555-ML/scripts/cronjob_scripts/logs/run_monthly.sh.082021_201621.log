@@ -1,0 +1,8 @@
+[master 992ef9c] monthly push on 082021
+ 4 files changed, 5 insertions(+), 2 deletions(-)
+ rewrite NCI-02227555-ML/scripts/cronjob_scripts/crontab.bak (100%)
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/bring_slack_to_front.scpt.082021_201132.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.082021_201104.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/run_monthly.sh.082021_201621.log
+To https://github.com/kopardev/configscriptsetc.git
+   7e2f950..992ef9c  master -> master
