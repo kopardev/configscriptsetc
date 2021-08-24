@@ -1,0 +1,9 @@
+[master 633e049] monthly push on 082321
+ 5 files changed, 5 insertions(+), 5 deletions(-)
+ rewrite NCI-02227555-ML/scripts/cronjob_scripts/crontab.bak (100%)
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/bring_slack_to_front.scpt.082321_165146.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.082321_165036.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.082321_165100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/run_monthly.sh.082321_165158.log
+To https://github.com/kopardev/configscriptsetc.git
+   b732656..633e049  master -> master
