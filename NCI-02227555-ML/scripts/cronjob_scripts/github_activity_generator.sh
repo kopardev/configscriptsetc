@@ -2,17 +2,18 @@
 
 # based off of https://github.com/kopardev/activitygenerator
 if [ "$(uname)" == "Darwin" ];then
-rl=$(which greadlink)
+rl="/usr/local/bin/greadlink"
 elif [ "$(uname)" == "Linux" ];then
-rl=$(which readlink)
+rl="/usr/bin/readlink"
 fi
 
+
 # cd to clone location
-cd $(dirname $($rl -f $(basename $0)))
+cd $(/usr/bin/dirname $($rl -f $(/usr/bin/basename $0)))
 # run script to generate random string in file "random_uuid.txt"
-bash create_random_uuid.sh
+/usr/bin/bash create_random_uuid.sh
 # commit the new file to github
-x=$(cat random_uuid.txt )
-git add .
-git commit -m "$x"
-git push
+x=$(/usr/bin/cat random_uuid.txt )
+/usr/bin/git add .
+/usr/bin/git commit -m "$x"
+/usr/bin/git push
