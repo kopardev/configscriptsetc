@@ -31,6 +31,7 @@ git config -l
 git config --global user.name "kopardev"
 git config --global user.email "vishal.koparde@nih.gov"
 git config --global credential.helper cache
+git config --global core.fileMode false
 ```
 
 Next time GH asks for password, copy paste the PAT and it will not ask password until PAT expires. More details [here](https://github.com/CCBR/Tools/tree/master/git#pat-or-personal-access-token).
