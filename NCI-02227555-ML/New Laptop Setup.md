@@ -120,6 +120,7 @@ brew install wget
 brew install tree
 brew install terminal-notifier
 brew install coreutils
+brew install mkdocs
 ```
 
 ###  9. <a name='Restoreoldfiles'></a>Restore old files
