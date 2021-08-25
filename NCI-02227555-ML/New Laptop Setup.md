@@ -120,7 +120,7 @@ brew install wget
 brew install tree
 brew install terminal-notifier
 brew install coreutils
-brew install mkdocs
+brew install mkdocs && pip3 install mkdocs-material
 ```
 
 ###  9. <a name='Restoreoldfiles'></a>Restore old files
