@@ -1,0 +1,4 @@
+[master (root-commit) d6d9d8c] daily push 090921
+ 1 file changed, 7 insertions(+)
+ create mode 100644 README.md
+fatal: could not read Username for 'https://github.com': Device not configured
