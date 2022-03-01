@@ -1,0 +1,8 @@
+2112
+[master 7205783] yBWLX8Q8OjZrqDYdhAGvqotIYMCUxEp2
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ssh: connect to host github.com port 22: Undefined error: 0
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
