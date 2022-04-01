@@ -1,0 +1,7 @@
+1320
+[master fd9de08] 8oZNdQiomXyq8ClvFE39gCBVnzQSbAsD
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:kopardev/ActGen.git        
+To github.com:kopardev/activitygenerator.git
+   deb65f2..fd9de08  master -> master

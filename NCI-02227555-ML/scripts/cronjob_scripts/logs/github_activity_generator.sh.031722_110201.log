@@ -1,0 +1,12 @@
+591
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:kopardev/ActGen.git        
+remote: Internal Server Error
+To github.com:kopardev/activitygenerator.git
+ ! [remote rejected] master -> master (Internal Server Error)
+error: failed to push some refs to 'github.com:kopardev/activitygenerator.git'

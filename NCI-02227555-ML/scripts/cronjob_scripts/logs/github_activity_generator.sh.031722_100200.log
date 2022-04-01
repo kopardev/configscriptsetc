@@ -1,0 +1,9 @@
+2169
+[master 5bb7b09] bC1ONLKxbgCzQGfhXiIbGDMFfk7pdm0t
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:kopardev/ActGen.git        
+remote: Internal Server Error
+To github.com:kopardev/activitygenerator.git
+ ! [remote rejected] master -> master (Internal Server Error)
+error: failed to push some refs to 'github.com:kopardev/activitygenerator.git'

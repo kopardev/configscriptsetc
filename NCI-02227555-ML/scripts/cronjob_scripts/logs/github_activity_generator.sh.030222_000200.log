@@ -1,0 +1,8 @@
+2061
+[master a9f2f28] kayajfwPy+o0y4PDW8T64mxKZKF0HQj2
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ssh: Could not resolve hostname github.com: nodename nor servname provided, or not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
