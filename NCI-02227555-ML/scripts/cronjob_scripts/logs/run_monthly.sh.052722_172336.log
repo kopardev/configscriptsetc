@@ -1,0 +1,6 @@
+[master 1cf77f8] monthly push on 052722
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/run_monthly.sh.052722_172336.log
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+To github.com:kopardev/configscriptsetc.git
+   8c910c7..1cf77f8  master -> master

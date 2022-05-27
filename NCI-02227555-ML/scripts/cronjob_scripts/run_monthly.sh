@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -exo pipefail
+
 # get date
 dt=$(date +"%D"|sed "s@/@@g")
 
