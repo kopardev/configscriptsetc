@@ -1,3 +1,5 @@
+export TERM="xterm-256color"
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -72,7 +74,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git per-directory-history vscode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -103,3 +105,22 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source ~/.zshrc_kopardevn
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/kopardevn/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/kopardevn/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/kopardevn/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/kopardevn/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# if you want conda to not activate at startup then run this
+# conda config --set auto_activate_base false
+# <<< conda initialize <<<
+
+#export DISPLAY=localhost:0

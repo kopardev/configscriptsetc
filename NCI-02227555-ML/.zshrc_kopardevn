@@ -16,6 +16,8 @@ alias m="ssh moab.ncifcrf.gov"
 alias h="ssh -Y 128.231.2.3"
 #alias batch="ssh -Y batch.ncifcrf.gov"
 alias batch="ssh -Y 10.156.101.10"
+# batch is now called frce
+alias frce="ssh -Y 10.156.101.10"
 #alias globus="ssh -Y ncias-p1462.nci.nih.gov"
 alias globus="ssh -Y ncias-p2237.nci.nih.gov"
 #Home NAS

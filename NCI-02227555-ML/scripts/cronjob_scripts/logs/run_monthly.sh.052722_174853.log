@@ -1,0 +1,7 @@
+++ date +%D
+++ sed s@/@@g
++ dt=052722
++ crontab -l
++ cd /Users/kopardevn/scripts/
++ git add /Users/kopardevn/.zshrc_kopardevn
+fatal: /Users/kopardevn/.zshrc_kopardevn: '/Users/kopardevn/.zshrc_kopardevn' is outside repository at '/Users/kopardevn/Documents/GitRepos/configscriptsetc'

@@ -4,3 +4,11 @@
 + crontab -l
 + cd /Users/kopardevn/scripts/
 + git add .
++ git commit -m 'monthly push on 052722'
+[master 9cdebe9] monthly push on 052722
+ 3 files changed, 14 insertions(+)
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/run_monthly.sh.052722_173409.log
++ git push
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+To github.com:kopardev/configscriptsetc.git
+   1cf77f8..9cdebe9  master -> master
