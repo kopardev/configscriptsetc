@@ -84,6 +84,8 @@ Download and install Typora for editing Markdown files from [here](https://typor
 brew install upic
 ```
 
+> Note (UPDATE): Typora is no longer free to use. You may have to use a VSCode plugin to edit `.md` files and to upload images embedded in them.
+
 ###  5. <a name='InstallVSCode'></a>Install VSCode
 
 Download and install from [here](https://code.visualstudio.com/download). Then install the following extensions
