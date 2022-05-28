@@ -1,13 +1,13 @@
 <!-- vscode-markdown-toc -->
-* 1. [Generate ssh keys and setup biowulf](#Generatesshkeysandsetupbiowulf)
-* 2. [Setup GitHub](#SetupGitHub)
-* 3. [Setup zsh](#Setupzsh)
-* 4. [Install Typora](#InstallTypora)
-* 5. [Install VSCode](#InstallVSCode)
-* 6. [Install Java](#InstallJava)
-* 7. [Install Other tools](#InstallOthertools)
-* 8. [Install other brew tools](#Installotherbrewtools)
-* 9. [Restore old files](#Restoreoldfiles)
+1. [Generate ssh keys and setup biowulf](#Generatesshkeysandsetupbiowulf)
+2. [Setup GitHub](#SetupGitHub)
+3. [Setup zsh](#Setupzsh)
+4. [Install Typora](#InstallTypora)
+5. [Install VSCode](#InstallVSCode)
+6. [Install Java](#InstallJava)
+7. [Install Other tools](#InstallOthertools)
+8. [Install other brew tools](#Installotherbrewtools)
+9. [Restore old files](#Restoreoldfiles)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -88,10 +88,10 @@ brew install upic
 
 Download and install from [here](https://code.visualstudio.com/download). Then install the following extensions
 
-* [Snakemake](https://github.com/snakemake/snakemake-lang-vscode-plugin)
-* [Pylance](https://github.com/microsoft/pylance-release)
-* [Remote SSH](https://github.com/Microsoft/vscode-remote-release)
-* [TOC](https://github.com/joffreykern/vscode-markdown-toc)
+[Snakemake](https://github.com/snakemake/snakemake-lang-vscode-plugin)
+[Pylance](https://github.com/microsoft/pylance-release)
+[Remote SSH](https://github.com/Microsoft/vscode-remote-release)
+[TOC](https://github.com/joffreykern/vscode-markdown-toc)
 
 ###  6. <a name='InstallJava'></a>Install Java
 
@@ -105,14 +105,14 @@ brew install java
 
 ###  7. <a name='InstallOthertools'></a>Install Other tools
 
-* [XQuartz](https://www.xquartz.org/) This is required for `ssh -Y` to work correctly. Installation requires restart. Verify installation with `echo $DISPLAY`.
-* [Evernote](https://evernote.com/download)
-* [Google Chrome](https://www.google.com/chrome/) Then sign in with google account to auto install extensions and download bookmarks.
-* [Brave Browser](https://brave.com/download/#mac-options) Then import bookmarks from Google Chrome.
-* [IGV](https://software.broadinstitute.org/software/igv/download)
-* [R](https://cran.r-project.org/bin/macosx/)
-* [Rstudio](https://www.rstudio.com/products/rstudio/download/)
-* [Adobe Reader](https://get.adobe.com/reader/) This is required for Digitally signing PDFs with PIV card certificates.
+[XQuartz](https://www.xquartz.org/) This is required for `ssh -Y` to work correctly. Installation requires restart. Verify installation with `echo $DISPLAY`.
+[Evernote](https://evernote.com/download)
+[Google Chrome](https://www.google.com/chrome/) Then sign in with google account to auto install extensions and download bookmarks.
+[Brave Browser](https://brave.com/download/#mac-options) Then import bookmarks from Google Chrome.
+[IGV](https://software.broadinstitute.org/software/igv/download)
+[R](https://cran.r-project.org/bin/macosx/)
+[Rstudio](https://www.rstudio.com/products/rstudio/download/)
+[Adobe Reader](https://get.adobe.com/reader/) This is required for Digitally signing PDFs with PIV card certificates.
 
 ###  8. <a name='Installotherbrewtools'></a>Install other brew tools
 
