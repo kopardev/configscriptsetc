@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# initially this script was run 1st of every month at midnight
+# now, it is being run every Tuesday at 10:20am
+
 BASEFOLDER="/Users/kopardevn/Documents/GitRepos/configscriptsetc"
 MACHINENAME="NCI-02227555-ML"
 
