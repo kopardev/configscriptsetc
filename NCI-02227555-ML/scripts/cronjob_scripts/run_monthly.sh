@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+# This script backs up the "scripts" folder on the laptop
+# Generally the repo is cloned under ~/Documents/GitRepos and 
+# symlink is made to the ~/scripts folder
+# This script also keep a backup copy of current crontab list
+# in the crontab.bak folder
 
 # initially this script was run 1st of every month at midnight
 # now, it is being run every Tuesday at 10:20am
@@ -20,5 +25,5 @@ crontab -l > ${BASEFOLDER}/${MACHINENAME}/scripts/cronjob_scripts/crontab.bak/cr
 # Push changes to github
 cd $BASEFOLDER
 git add .
-git commit -m "monthly push on $dt"
+git commit -m "push on $dt"
 git push
