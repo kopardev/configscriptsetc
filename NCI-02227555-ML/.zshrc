@@ -2,6 +2,7 @@ export TERM="xterm-256color"
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/kopardevn/.oh-my-zsh"
@@ -124,3 +125,8 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 #export DISPLAY=localhost:0
+
+# add java
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-18.0.2.1.jdk/Contents/Home"
+export JAVA_CMD="/usr/bin/java"
+#export PATH="/usr/local/opt/openjdk/bin:$PATH"

@@ -1,0 +1,7 @@
+++ date +%D
+++ sed s@/@@g
++ dt=101822
++ crontab -l
++ cd /Users/kopardevn/Documents/GitRepos/configscriptsetc
++ git add .
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun

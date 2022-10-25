@@ -1,0 +1,6 @@
+++ sed s@/@@g
+++ date +%D
++ dt=102522
++ crontab -l
++ cd /Users/kopardevn/Documents/GitRepos/configscriptsetc
++ git add .
