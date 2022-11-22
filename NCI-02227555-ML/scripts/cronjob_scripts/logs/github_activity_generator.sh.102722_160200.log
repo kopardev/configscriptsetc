@@ -1,0 +1,8 @@
+2097
+/Users/kopardevn/scripts/cronjob_scripts/github_activity_generator.sh: line 16: GH#: command not found
+[master 5f3258e] RVubbwCePSdVUPBva+RctU2mzJV8z81X
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:kopardev/ActGen.git        
+To github.com:kopardev/activitygenerator.git
+   d6f8d1c..5f3258e  master -> master
