@@ -1,0 +1,9 @@
+2952
+/Users/kopardevn/scripts/cronjob_scripts/github_activity_generator.sh: line 16: GH#: command not found
+[master d04e563] hxfxYkylmmA9NVcUSORCO9tP0ZBOxsuz
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ssh: connect to host github.com port 22: Undefined error: 0
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
