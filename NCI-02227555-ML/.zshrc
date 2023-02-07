@@ -130,3 +130,7 @@ unset __conda_setup
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-18.0.2.1.jdk/Contents/Home"
 export JAVA_CMD="/usr/bin/java"
 #export PATH="/usr/local/opt/openjdk/bin:$PATH"
+
+# add pip3
+export PATH="$PATH:/Library/Developer/CommandLineTools/usr/bin/python3"
+export PATH="$PATH:/Users/kopardevn/Library/Python/3.9/bin"
