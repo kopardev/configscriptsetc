@@ -1,11 +1,4 @@
-2286
-base64: invalid argument /dev/urandom
-Usage:	base64 [-hDd] [-b num] [-i in_file] [-o out_file]
-  -h, --help     display this message
-  -Dd, --decode   decodes input
-  -b, --break    break encoded string into num character lines
-  -i, --input    input file (default: "-" for stdin)
-  -o, --output   output file (default: "-" for stdout)
+591
 /Users/kopardevn/scripts/cronjob_scripts/github_activity_generator.sh: line 16: GH#: command not found
 Aborting commit due to empty commit message.
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
