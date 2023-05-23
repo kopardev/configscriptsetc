@@ -134,3 +134,5 @@ export JAVA_CMD="/usr/bin/java"
 # add pip3
 export PATH="$PATH:/Library/Developer/CommandLineTools/usr/bin/python3"
 export PATH="$PATH:/Users/kopardevn/Library/Python/3.9/bin"
+
+alias cursor="tput cnorm"
