@@ -1,4 +1,4 @@
-1083
+1245
 base64: invalid argument /dev/urandom
 Usage:	base64 [-hDd] [-b num] [-i in_file] [-o out_file]
   -h, --help     display this message
