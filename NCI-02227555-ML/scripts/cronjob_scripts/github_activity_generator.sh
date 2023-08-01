@@ -9,7 +9,7 @@ fi
 
 
 # cd to clone location
-clone_dir="/Users/kopardevn/Documents/GitRepos/activitygenerator"
+clone_dir="/Users/kopardevn/Documents/GitRepos/ActGen"
 cd $clone_dir
 # run script to generate random string in file "random_uuid.txt"
 /bin/bash create_random_uuid.sh
