@@ -13,8 +13,8 @@ clone_dir="/Users/kopardevn/Documents/GitRepos/ActGen"
 cd $clone_dir
 # run script to generate random string in file "random_uuid.txt"
 /bin/bash create_random_uuid.sh
-GH# commit the new file to github
+# commit the new file to github
 x=$(/bin/cat random_uuid.txt )
-/usr/bin/git add .
+/usr/bin/git add random_uuid.txt
 /usr/bin/git commit -m "$x"
 /usr/bin/git push
