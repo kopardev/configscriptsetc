@@ -20,6 +20,7 @@ alias batch="ssh -Y 10.156.101.10"
 alias frce="ssh -Y 10.156.101.10"
 #alias globus="ssh -Y ncias-p1462.nci.nih.gov"
 alias globus="ssh -Y ncias-p2237.nci.nih.gov"
+alias gitlog='git log --graph --pretty=format:'\''%C(blue)%ar %C(yellow)%h %C(green)%an %C(red)%s'\'''
 #Home NAS
 alias nas="ssh -oHostKeyAlgorithms=+ssh-dss root@192.168.1.42"
 #alias sublime="/Applications/Sublime\ Text\ 2.app/Contents/MacOS/Sublime\ Text\ 2"
