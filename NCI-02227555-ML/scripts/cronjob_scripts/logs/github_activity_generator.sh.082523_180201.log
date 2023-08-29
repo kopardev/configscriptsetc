@@ -1,0 +1,4 @@
+1104
+[master 7f4a4aa] 8a3cbc8ff810e019b018a0aafeb5d1acc53521ce
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+fatal: unable to access 'https://github.com/kopardev/ActGen.git/': Could not resolve host: github.com
