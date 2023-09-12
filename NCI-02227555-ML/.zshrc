@@ -1,5 +1,18 @@
 export TERM="xterm-256color"
 
+# per-directory-history plugin setup
+source /Users/kopardevn/zsh_plugins/per-directory-history/per-directory-history.zsh
+# Bind up/down arrow keys to navigate through your history
+bindkey '\e[A' directory-history-search-backward
+bindkey '\e[B' directory-history-search-forward
+# Bind CTRL+k and CTRL+j to substring search
+bindkey '^j' history-substring-search-up
+bindkey '^k' history-substring-search-down
+HISTORY_BASE="/Users/kopardevn/per-directory-history"
+
+# zsh-interactive-cd plugin setup
+source /Users/kopardevn/zsh_plugins/zsh-interactive-cd/zsh-interactive-cd.plugin.zsh
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/bin:$PATH
@@ -79,7 +92,9 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git per-directory-history vscode forklift)
+
+GIT_AUTO_FETCH_INTERVAL=1200
+plugins=(git git-auto-fetch per-directory-history vscode forklift zsh-interactive-cd)
 
 source $ZSH/oh-my-zsh.sh
 
