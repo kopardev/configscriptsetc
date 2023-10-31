@@ -1,0 +1,9 @@
+2208
+dyld[47876]: Library not loaded: @rpath/libssl.1.1.dylib
+  Referenced from: <B005C6DA-9C5C-3F5B-9067-D23AF138049F> /Users/kopardevn/miniconda3/bin/openssl
+  Reason: tried: '/Users/kopardevn/miniconda3/lib/libssl.1.1.dylib' (code signature in <2B52875B-7DE9-380B-B163-D62D441DD235> '/Users/kopardevn/miniconda3/lib/libssl.1.1.dylib' not valid for use in process: system is shutting down), '/System/Volumes/Preboot/Cryptexes/OS/Users/kopardevn/miniconda3/lib/libssl.1.1.dylib' (no such file), '/Users/kopardevn/miniconda3/bin/../lib/libssl.1.1.dylib' (code signature in <2B52875B-7DE9-380B-B163-D62D441DD235> '/Users/kopardevn/miniconda3/lib/libssl.1.1.dylib' not valid for use in process: system is shutting down), '/Users/kopardevn/miniconda3/lib/libssl.1.1.dylib' (code signature in <2B52875B-7DE9-380B-B163-D62D441DD235> '/Users/kopardevn/miniconda3/lib/libssl.1.1.dylib' not valid for use in process: system is shutting down), '/System/Volumes/Preboot/Cryptexes/OS/Users/kopardevn/miniconda3/lib/libssl.1.1.dylib' (no such file), '/Users/kopardevn/miniconda3/bin/../lib/libssl.1.1.dylib' (code signature in <2B52875B-7DE9-380B-B163-D62D441DD235> '/Users/kopardevn/miniconda3/lib/libssl.1.1.dylib' not valid for use in process: system is shutting down), '/usr/local/lib/libssl.1.1.dylib' (no such file), '/usr/lib/libssl.1.1.dylib' (no such file, not in dyld cache)
+create_random_uuid.sh: line 9: random_uuid.txt: Operation not permitted
+cat: random_uuid.txt: Operation not permitted
+fatal: Unable to read current working directory: Operation not permitted
+fatal: Unable to read current working directory: Operation not permitted
+fatal: Unable to read current working directory: Operation not permitted
