@@ -4,3 +4,219 @@
 + crontab -l
 + cd /Users/kopardevn/Documents/GitRepos/configscriptsetc
 + git add .
++ git commit -m 'push on 112123'
+[master 780770d] push on 112123
+ 196 files changed, 791 insertions(+)
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/crontab.bak/crontab.bak.112123
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/commit_todos.sh.111523_100000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/commit_todos.sh.111623_100001.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/commit_todos.sh.111723_100000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/commit_todos.sh.112023_100000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/commit_todos.sh.112123_100000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111423_110201.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111423_120200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111423_130200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111423_140200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111423_150200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111423_160200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111423_170200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111423_180200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111423_190200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111423_200200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111423_210200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111423_220200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111423_230200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111523_000200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111523_010200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111523_020200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111523_070201.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111523_100200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111523_110200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111523_120201.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111523_130200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111523_140200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111523_150200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111523_160200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111523_170200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111523_180200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111523_190200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111523_200200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111523_210200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111523_220200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111523_230200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111623_000200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111623_010201.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111623_100200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111623_110200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111623_120200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111623_130200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111623_140200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111623_150200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111623_160200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111623_170200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111623_180200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111623_190200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111623_200200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111623_210200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111623_220200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111623_230200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111723_000201.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111723_010200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111723_020201.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111723_070201.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111723_100200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111723_110200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111723_120200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111723_130200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111723_140200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111723_150200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111723_160201.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111723_170201.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111723_180200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111723_190200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111723_200200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111723_210200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111723_220200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111723_230200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111823_000200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111823_010200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111823_020200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111823_070729.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111923_142244.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111923_150200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111923_160200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111923_170200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111923_180200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111923_190200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111923_200200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.111923_210200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.112023_090215.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.112023_100200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.112023_110200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.112023_120200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.112023_130200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.112023_140200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.112123_090200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/github_activity_generator.sh.112123_100200.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111423_110100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111423_120100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111423_130100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111423_140100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111423_150100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111423_160101.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111423_170100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111423_180101.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111423_190100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111423_200100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111423_210100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111423_220100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111423_230100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111523_000100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111523_010100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111523_020100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111523_070102.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111523_100100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111523_110100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111523_120100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111523_130100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111523_140100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111523_150100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111523_160100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111523_170100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111523_180101.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111523_190100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111523_200100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111523_210100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111523_220101.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111523_230100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111623_000100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111623_010100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111623_020100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111623_070101.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111623_100100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111623_110100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111623_120100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111623_130100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111623_140100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111623_150100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111623_160100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111623_170100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111623_180100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111623_190101.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111623_200100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111623_210100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111623_220100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111623_230101.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111723_000100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111723_010100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111723_020100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111723_070101.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111723_100100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111723_110100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111723_120100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111723_130100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111723_140100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111723_150100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111723_160100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111723_170100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111723_180100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111723_190100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111723_200101.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111723_210100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111723_220100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111723_230100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111823_000100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111823_010101.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111823_020100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111923_150100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111923_160100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111923_170101.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111923_180100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111923_190100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111923_200100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.111923_210100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.112023_100100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.112023_110100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.112023_120100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.112023_130100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.112023_140100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.112123_090100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_brave_browser.sh.112123_100100.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.111423_120000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.111423_160000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.111423_200001.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.111523_000000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.111523_120000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.111523_160000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.111523_200000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.111623_000001.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.111623_120000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.111623_160000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.111623_200000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.111723_000000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.111723_120000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.111723_160000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.111723_200000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.111823_000000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.111923_160001.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.111923_200000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/kill_password_boss.sh.112023_120000.log
+ create mode 100644 NCI-02227555-ML/scripts/cronjob_scripts/logs/run_monthly.sh.112123_102000.log
++ git push
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:uNiVztksCsDhcc0u9e8BujQXVUpKZIDTMczCvj3tD2s.
+Please contact your system administrator.
+Add correct host key in /Users/kopardevn/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /Users/kopardevn/.ssh/known_hosts:8
+Host key for github.com has changed and you have requested strict checking.
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
