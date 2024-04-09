@@ -17,6 +17,18 @@ source /Users/kopardevn/zsh_plugins/zsh-interactive-cd/zsh-interactive-cd.plugin
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/bin:$PATH
 
+################# curl ###########################################
+# use curl installed using brew ... not the default MacOS version
+export PATH="/usr/local/opt/curl/bin:$PATH"
+
+#For compilers to find curl you may need to set:
+export LDFLAGS="-L/usr/local/opt/curl/lib"
+export CPPFLAGS="-I/usr/local/opt/curl/include"
+
+#For pkg-config to find curl you may need to set:
+export PKG_CONFIG_PATH="/usr/local/opt/curl/lib/pkgconfig"
+##################################################################
+
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/kopardevn/.oh-my-zsh"
 
