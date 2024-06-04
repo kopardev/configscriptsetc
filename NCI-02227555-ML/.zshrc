@@ -106,7 +106,15 @@ ENABLE_CORRECTION="true"
 # Add wisely, as too many plugins slow down shell startup.
 
 GIT_AUTO_FETCH_INTERVAL=1200
-plugins=(git git-auto-fetch per-directory-history vscode forklift zsh-interactive-cd)
+plugins=(
+git 
+git-auto-fetch 
+per-directory-history 
+vscode 
+forklift 
+zsh-interactive-cd
+zsh-history-substring-search
+)
 
 source $ZSH/oh-my-zsh.sh
 
