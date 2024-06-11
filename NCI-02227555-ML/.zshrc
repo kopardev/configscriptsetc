@@ -28,6 +28,20 @@ export CPPFLAGS="-I/usr/local/opt/curl/include"
 #For pkg-config to find curl you may need to set:
 export PKG_CONFIG_PATH="/usr/local/opt/curl/lib/pkgconfig"
 ##################################################################
+################zsh-completions###################################
+  if type brew &>/dev/null; then
+    FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+    autoload -Uz compinit
+    compinit
+  fi
+##################################################################
+
+#fzf
+source <(fzf --zsh)
+
+#gnubin
+PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/kopardevn/.oh-my-zsh"
@@ -166,12 +180,16 @@ unset __conda_setup
 #export DISPLAY=localhost:0
 
 # add java
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-18.0.2.1.jdk/Contents/Home"
-export JAVA_CMD="/usr/bin/java"
 #export PATH="/usr/local/opt/openjdk/bin:$PATH"
+export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
+export CPPFLAGS="-I/usr/local/opt/openjdk@11/include"
 
 # add pip3
 export PATH="$PATH:/Library/Developer/CommandLineTools/usr/bin/python3"
 export PATH="$PATH:/Users/kopardevn/Library/Python/3.9/bin"
 
 alias cursor="tput cnorm"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
