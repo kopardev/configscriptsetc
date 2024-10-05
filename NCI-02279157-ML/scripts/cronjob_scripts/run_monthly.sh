@@ -8,7 +8,7 @@
 # initially this script was run 1st of every month at midnight
 # now, it is being run every Tuesday at 10:20am
 
-debug=1
+debug=0
 BASEFOLDER="/Users/kopardevn/Documents/GitRepos/configscriptsetc"
 MACHINENAME="NCI-02279157-ML"
 
@@ -42,6 +42,8 @@ cp ~/.gitconfig .
 cp ~/.zshrc .
 cp ~/.zshrc_kopardevn .
 
+# copy scripts folder
+rsync -az --progress ~/scripts/ ${BASEFOLDER}/${MACHINENAME}/scripts/
 
 # Push changes to github
 if [[ "$debug" == "1" ]];then 

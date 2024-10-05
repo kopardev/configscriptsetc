@@ -15,6 +15,7 @@
 - [8. Install Other tools](#8-install-other-tools)
 - [9. Install other brew tools](#9-install-other-brew-tools)
 - [10. Restore old files](#10-restore-old-files)
+	- [10.1 restore cronjobs](#101-restore-cronjobs)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -208,6 +209,12 @@ pip3 install --user --upgrade pip && pip install --user mkdocs && pip install --
 ```
 
 ###  10. <a name='Restoreoldfiles'></a>Restore old files
+
+#### 10.1 restore cronjobs
+
+`<OldMachineName>/scripts/cronjob_scripts/crontab.bak` folder will have crontab from the older computer. Use it to setup crontab on the new computer.
+
+Also:
 
 1. Files are backed up to external HDD and can be recovered via rsync
 2. Files can be restored using Druva InSync (recommended)
