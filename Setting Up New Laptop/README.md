@@ -205,7 +205,6 @@ brew install tree
 brew install terminal-notifier
 brew install coreutils
 brew install gh
-pip3 install --user --upgrade pip && pip install --user mkdocs && pip install --user mkdocs-material
 ```
 
 ###  10. <a name='Restoreoldfiles'></a>Restore old files
