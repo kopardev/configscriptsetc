@@ -3,7 +3,7 @@
 # arguments:
 # arg1: path of script to run and its arguments
 
-notifier=/usr/local/bin/terminal-notifier
+notifier=/opt/homebrew/bin/terminal-notifier
 # if notifier is not installed then
 # brew install terminal-notifier
 
