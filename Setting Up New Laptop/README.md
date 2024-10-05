@@ -1,13 +1,21 @@
 <!-- vscode-markdown-toc -->
-1. [Generate ssh keys and setup biowulf](#Generatesshkeysandsetupbiowulf)
-2. [Setup GitHub](#SetupGitHub)
-3. [Setup zsh](#Setupzsh)
-4. [Install Typora](#InstallTypora)
-5. [Install VSCode](#InstallVSCode)
-6. [Install Java](#InstallJava)
-7. [Install Other tools](#InstallOthertools)
-8. [Install other brew tools](#Installotherbrewtools)
-9. [Restore old files](#Restoreoldfiles)
+- [1. Generate ssh keys and setup biowulf](#1-generate-ssh-keys-and-setup-biowulf)
+- [2. Setup GitHub](#2-setup-github)
+- [3. Setup iTerm2](#3-setup-iterm2)
+- [4. Setup zsh](#4-setup-zsh)
+- [4. Install brew and zsh plugins](#4-install-brew-and-zsh-plugins)
+- [5. Install VSCode](#5-install-vscode)
+	- [5.1 Add `code` to PATH](#51-add-code-to-path)
+	- [5.2 Add vscode extensions](#52-add-vscode-extensions)
+- [6. Install Java](#6-install-java)
+- [7. Setup cronjobs](#7-setup-cronjobs)
+- [8. Setup conda environments](#8-setup-conda-environments)
+	- [8.1 Install miniconda](#81-install-miniconda)
+	- [8.2 Copy conda envs](#82-copy-conda-envs)
+- [8. Install Other tools](#8-install-other-tools)
+- [9. Install other brew tools](#9-install-other-brew-tools)
+- [10. Restore old files](#10-restore-old-files)
+	- [10.1 restore cronjobs](#101-restore-cronjobs)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -42,7 +50,16 @@ Copy contents of `id_rsa.pub` from the previous step and setup ssh access to git
 ssh -T git@github.com
 ```
 
-###  3. <a name='Setupzsh'></a>Setup zsh
+###  3. <a name='Setupiterm'></a>Setup iTerm2
+
+After downloading and installing iTerm2, import the `kopardevn_iterm_theme.json` using Settings > Profiles > Import JSON profiles
+
+This will restore the look-and-feel of iTerm2:
+
+![iTerm2](assets/iterm.png)
+
+###  4. <a name='Setupzsh'></a>Setup zsh
+
 
 ```bash
 #!/bin/bash
@@ -69,19 +86,47 @@ echo "source ~/.zshrc_kopardevn" >> ~/.zshrc
 Set the theme in `~/.zshrc`
 
 ```bash
-ZSH_THEME="powerlevel9k/powerlevel9k"
+# copy theme file to the correct location
+cp fino-time-plus.zsh-theme ~/.oh-my-zsh/custom/themes/
+# now add this to the ~/.zshrc
+ZSH_THEME="fino-time-plus"
 ```
 
-Download and install iterm2 and then set the font to Menlo from Powerline with the following settings:
 
-![image-20210817120241168](https://i.loli.net/2021/08/18/Fcv3VqEsGgaykI7.png)
 
-###  4. <a name='InstallTypora'></a>Install Typora
+###  4. <a name='InstallBrew'></a>Install brew and zsh plugins
 
-Download and install Typora for editing Markdown files from [here](https://typora.io/). To upload embedded images Typora also requires `uPic`
 
 ```bash
-brew install upic
+# install brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# install zsh-interactive-cd plugin
+brew install fzf
+# add the following line to ~/.zshrc
+source <(fzf --zsh)
+# install the plugin
+brew tap mrzool/zsh-interactive-cd
+brew install zsh-interactive-cd
+
+# Install tmux, git
+brew install tmux
+brew install git
+
+# for vscode plugin 
+# follow instructions on https://github.com/valentinocossar/vscode
+git clone https://github.com/valentinocossar/vscode.git ${ZSH_CUSTOM}/plugins/vscode
+
+# Install per-directory-history
+git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM}/plugins/zsh-history-substring-search
+git clone https://github.com/jimhester/per-directory-history.git ${ZSH_CUSTOM}/plugins/per-directory-history
+# add these to ~/.zshrc
+source ${ZSH_CUSTOM}/plugins/per-directory-history/per-directory-history.zsh
+bindkey '\e[A' directory-history-search-backward
+bindkey '\e[B' directory-history-search-forward
+bindkey '^j' history-substring-search-up
+bindkey '^k' history-substring-search-down
+HISTORY_BASE="/Users/${USER}/per-directory-history"
 ```
 
 > Note (UPDATE): Typora is no longer free to use. You may have to use a VSCode plugin to edit `.md` files and to upload images embedded in them.
@@ -90,10 +135,16 @@ brew install upic
 
 Download and install from [here](https://code.visualstudio.com/download). Then install the following extensions
 
-[Snakemake](https://github.com/snakemake/snakemake-lang-vscode-plugin)
-[Pylance](https://github.com/microsoft/pylance-release)
-[Remote SSH](https://github.com/Microsoft/vscode-remote-release)
-[TOC](https://github.com/joffreykern/vscode-markdown-toc)
+#### 5.1 Add `code` to PATH
+- Open Visual Studio Code.
+- Press Ctrl + Shift + P (or Cmd + Shift + P on macOS) to open the Command Palette.
+- Type and select Shell Command: Install 'code' command in PATH.
+
+#### 5.2 Add vscode extensions
+
+```bash
+./install_vscode_extensions.sh
+```
 
 ###  6. <a name='InstallJava'></a>Install Java
 
@@ -105,7 +156,37 @@ brew tap homebrew/cask
 brew install java
 ```
 
-###  7. <a name='InstallOthertools'></a>Install Other tools
+```bash
+sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+# add these to ~/.zshrc_kopardevn
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
+```
+
+###  7. <a name='cronjobs'></a>Setup cronjobs
+
+### 8. <a name='setupconda'></a>Setup conda environments
+
+#### 8.1 Install miniconda
+
+```bash
+brew update
+brew install --cask miniconda
+# conda init zsh
+conda init "$(basename "${SHELL}")"
+# restart the terminal
+# update everything
+conda update conda -y
+conda update --all -y
+```
+
+#### 8.2 Copy conda envs
+
+- Run `backup_conda_envs.sh` on the old laptop to create a backup folder `conda-env-backup` with exported yml files (1 file per env)
+- Move the folder to the new laptop
+- Run `install_conda_envs.sh` to install the conda envs from the yml files
+
+###  8. <a name='InstallOthertools'></a>Install Other tools
 
 [XQuartz](https://www.xquartz.org/) This is required for `ssh -Y` to work correctly. Installation requires restart. Verify installation with `echo $DISPLAY`.
 [Evernote](https://evernote.com/download)
@@ -116,7 +197,7 @@ brew install java
 [Rstudio](https://www.rstudio.com/products/rstudio/download/)
 [Adobe Reader](https://get.adobe.com/reader/) This is required for Digitally signing PDFs with PIV card certificates.
 
-###  8. <a name='Installotherbrewtools'></a>Install other brew tools
+###  9. <a name='Installotherbrewtools'></a>Install other brew tools
 
 ```bash
 brew install wget
@@ -124,10 +205,15 @@ brew install tree
 brew install terminal-notifier
 brew install coreutils
 brew install gh
-pip3 install --user --upgrade pip && pip install --user mkdocs && pip install --user mkdocs-material
 ```
 
-###  9. <a name='Restoreoldfiles'></a>Restore old files
+###  10. <a name='Restoreoldfiles'></a>Restore old files
+
+#### 10.1 restore cronjobs
+
+`<OldMachineName>/scripts/cronjob_scripts/crontab.bak` folder will have crontab from the older computer. Use it to setup crontab on the new computer.
+
+Also:
 
 1. Files are backed up to external HDD and can be recovered via rsync
 2. Files can be restored using Druva InSync (recommended)

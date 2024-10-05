@@ -1,0 +1,47 @@
+name: shinyexpress
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - bzip2=1.0.8=h99b78c6_7
+  - ca-certificates=2024.8.30=hf0a4a13_0
+  - libexpat=2.6.3=hf9b8971_0
+  - libffi=3.4.2=h3422bc3_5
+  - libsqlite=3.46.1=hc14010f_0
+  - libzlib=1.3.1=h8359307_2
+  - ncurses=6.5=h7bae524_1
+  - openssl=3.3.2=h8359307_0
+  - python=3.12.7=h739c21a_0_cpython
+  - readline=8.2=h92ec313_1
+  - tk=8.6.13=h5083fa2_1
+  - tzdata=2024b=hc8b5060_0
+  - xz=5.2.6=h57fd34a_0
+  - pip:
+      - anyio==4.3.0
+      - appdirs==1.4.4
+      - asgiref==3.7.2
+      - click==8.1.7
+      - h11==0.14.0
+      - htmltools==0.5.1
+      - idna==3.6
+      - linkify-it-py==2.0.3
+      - markdown-it-py==3.0.0
+      - mdit-py-plugins==0.4.0
+      - mdurl==0.1.2
+      - packaging==23.2
+      - pip==24.0
+      - prompt-toolkit==3.0.36
+      - python-multipart==0.0.9
+      - questionary==2.0.1
+      - setuptools==69.1.0
+      - shiny==0.7.1
+      - sniffio==1.3.0
+      - starlette==0.34.0
+      - typing-extensions==4.9.0
+      - uc-micro-py==1.0.3
+      - uvicorn==0.27.1
+      - watchfiles==0.21.0
+      - wcwidth==0.2.13
+      - websockets==12.0
+      - wheel==0.42.0
+prefix: /opt/homebrew/Caskroom/miniconda/base/envs/shinyexpress

@@ -1,0 +1,16 @@
+[user]
+	name = kopardev
+	email = vishal.koparde@nih.gov
+[credential]
+	helper = cache
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[core]
+	fileMode = false
+[pull]
+	ff = only
+[push]
+	autoSetupRemote = true
