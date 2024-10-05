@@ -37,7 +37,7 @@ if [[ "$debug" == "1" ]];then
 echo "Copying configurations"
 fi
 cp ~/.exrc .
-cp ~/.vmrc .
+cp ~/.vimrc .
 cp ~/.gitconfig .
 cp ~/.zshrc .
 cp ~/.zshrc_kopardevn .

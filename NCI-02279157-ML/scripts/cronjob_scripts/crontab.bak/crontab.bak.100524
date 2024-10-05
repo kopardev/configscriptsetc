@@ -3,4 +3,4 @@
 # 0 * * * * /Users/kopardevn/scripts/cronjob_scripts/runthisscript_and_logit.sh /Users/kopardevn/scripts/apple_scripts/bring_slack_to_front.scpt
 # 1 * * * * /Users/kopardevn/scripts/cronjob_scripts/runthisscript_and_logit.sh /Users/kopardevn/scripts/cronjob_scripts/kill_brave_browser.sh
 2 * * * * /Users/kopardevn/scripts/cronjob_scripts/runthisscript_and_logit.sh /Users/kopardevn/scripts/cronjob_scripts/github_activity_generator.sh
-0 10 * * * /Users/kopardevn/scripts/cronjob_scripts/runthisscript_and_logit.sh /Users/kopardevn/scripts/cronjob_scripts/commit_todos.sh
+# 0 10 * * * /Users/kopardevn/scripts/cronjob_scripts/runthisscript_and_logit.sh /Users/kopardevn/scripts/cronjob_scripts/commit_todos.sh
