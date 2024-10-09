@@ -74,9 +74,6 @@ mv ~/.zshrc ~/.zshrc.original
 fi
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-brew install zsh-completions
-git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-
 # add "source ~/.zshrc_kopardevn" to the bottom of ~/.zshrc file
 echo "source ~/.zshrc_kopardevn" >> ~/.zshrc
 
@@ -113,11 +110,12 @@ brew install zsh-interactive-cd
 brew install tmux
 brew install git
 
-# for vscode plugin 
-# follow instructions on https://github.com/valentinocossar/vscode
+# Install plugins
+git clone https://github.com/zsh-users/zsh-completions $ZSH_CUSTOM/plugins/zsh-completions
 git clone https://github.com/valentinocossar/vscode.git ${ZSH_CUSTOM}/plugins/vscode
-
-# Install per-directory-history
+git clone https://github.com/changyuheng/zsh-interactive-cd.git $ZSH_CUSTOM/plugins/zsh-interactive-cd
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM}/plugins/zsh-history-substring-search
 git clone https://github.com/jimhester/per-directory-history.git ${ZSH_CUSTOM}/plugins/per-directory-history
 # add these to ~/.zshrc
